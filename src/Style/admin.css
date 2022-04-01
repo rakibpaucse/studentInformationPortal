@@ -1,0 +1,53 @@
+#ul > li {
+  padding: 10px 0px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.innerLi {
+  color: brown;
+  border: 1px solid;
+  padding: 6px 28px;
+  width: 220px;
+  background: #fff9f9;
+  transition: all 0.4s;
+}
+
+.innerLi:hover {
+  text-decoration: none;
+  background: #ac3a3a;
+  color: white;
+  border: 1px solid white;
+}
+
+#btn {
+  list-style: none;
+  color: #17a2b8;
+  border: 1px solid #17a2b8;
+  padding: 8px 82px;
+  margin: 25px 0px;
+  background: #eafcff;
+  font-size: 15px;
+}
+
+.dropDownInnerLi {
+  color: brown !important;
+  border: 1px solid;
+  padding: 6px 28px;
+  width: 220px;
+  background: #fff9f9;
+  transition: all 0.4s;
+
+  margin-left: 10px;
+  text-align: center;
+  border: 1px solid #ac3a3a;
+}
+
+.dropDownInnerLi:hover {
+  text-decoration: none;
+  background: #ac3a3a;
+  color: white !important;
+  border: 1px solid white;
+}
